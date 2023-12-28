@@ -1,0 +1,14 @@
+package br.com.ivirson.math;
+
+import br.com.ivirson.exceptions.UnsupportedMathOperationException;
+
+public class MathUtils {
+	
+	public Double sum(String a, String b) {
+		if (!Utils.isNumeric(a) || !Utils.isNumeric(b)) {
+			throw new UnsupportedMathOperationException("Please set a numeric value");
+		}
+		return Utils.convertToDouble(a) + Utils.convertToDouble(b);
+	}
+
+}

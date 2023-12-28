@@ -1,0 +1,8 @@
+package br.com.ivirson.math.utils;
+
+public class MathUtils {
+	public sum(a, b) {
+		return a + b;
+	}
+
+}

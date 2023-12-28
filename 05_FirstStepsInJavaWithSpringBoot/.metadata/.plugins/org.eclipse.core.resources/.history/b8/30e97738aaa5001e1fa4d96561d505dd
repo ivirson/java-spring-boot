@@ -1,0 +1,9 @@
+package br.com.ivirson.math.utils;
+
+public class MathUtils {
+	
+	public Float sum(Float a, Float b) {
+		return a + b;
+	}
+
+}
